@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repository\\Blog\\Blog.csproj": {}
+    "D:\\Repository\\ChallengeDataAccess\\Blog.csproj": {}
   },
   "projects": {
-    "D:\\Repository\\Blog\\Blog.csproj": {
+    "D:\\Repository\\ChallengeDataAccess\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\Blog\\Blog.csproj",
+        "projectUniqueName": "D:\\Repository\\ChallengeDataAccess\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "D:\\Repository\\Blog\\Blog.csproj",
+        "projectPath": "D:\\Repository\\ChallengeDataAccess\\Blog.csproj",
         "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\Blog\\obj\\",
+        "outputPath": "D:\\Repository\\ChallengeDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
