@@ -13,6 +13,8 @@ namespace Blog.Screens.TagScreens
             System.Console.WriteLine();
             System.Console.WriteLine("1 - Listar tags");
             System.Console.WriteLine("2 - Cadastrar tags");
+            System.Console.WriteLine("3 - Atualizar tags");
+            System.Console.WriteLine("4 - Excluir tags");
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = short.Parse(Console.ReadLine());
