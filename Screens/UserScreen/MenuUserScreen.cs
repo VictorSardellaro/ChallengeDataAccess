@@ -1,7 +1,6 @@
 using System;
-using Blog.Screens.UserScreens;
 
-namespace Blog.Screens.UserScreen
+namespace Blog.Screens.UserScreens
 {
     public static class MenuUserScreen
     {
