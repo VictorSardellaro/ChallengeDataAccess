@@ -39,7 +39,7 @@ namespace Blog
             switch (option)
             {
                 case 1:
-                    Screens.UserScreen.MenuUserScreen.Load();
+                    Screens.UserScreens.MenuUserScreen.Load();
                     break;
                 case 2:
                     Screens.TagScreens.MenuTagScreen.Load();
