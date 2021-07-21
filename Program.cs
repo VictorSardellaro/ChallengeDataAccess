@@ -38,7 +38,22 @@ namespace Blog
 
             switch (option)
             {
+                case 1:
+                    Screens.UserScreen.MenuUserScreen.Load();
+                    break;
+                case 2:
+                    Screens.TagScreens.MenuTagScreen.Load();
+                    break;
+                case 3:
+                    Screens.TagScreens.MenuTagScreen.Load();
+                    break;
                 case 4:
+                    Screens.TagScreens.MenuTagScreen.Load();
+                    break;
+                case 5:
+                    Screens.TagScreens.MenuTagScreen.Load();
+                    break;
+                case 6:
                     Screens.TagScreens.MenuTagScreen.Load();
                     break;
                 default: Load(); break;
