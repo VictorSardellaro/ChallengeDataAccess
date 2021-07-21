@@ -52,7 +52,7 @@ namespace Blog
                     Screens.TagScreens.MenuTagScreen.Load();
                     break;
                 case 5:
-                    Screens.TagScreens.MenuTagScreen.Load();
+                    Screens.PostScreens.MenuPostScreen.Load();
                     break;
                 case 6:
                     Screens.UserRoleScreens.MenuUserRoleScreen.Load();
