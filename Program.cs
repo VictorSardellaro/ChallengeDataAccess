@@ -42,7 +42,7 @@ namespace Blog
                     Screens.UserScreens.MenuUserScreen.Load();
                     break;
                 case 2:
-                    Screens.TagScreens.MenuTagScreen.Load();
+                    Screens.RoleScreens.MenuRoleScreen.Load();
                     break;
                 case 3:
                     Screens.CategoryScreens.MenuCategoryScreen.Load();
