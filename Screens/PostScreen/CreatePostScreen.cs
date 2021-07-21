@@ -38,7 +38,9 @@ namespace Blog.Screens.PostScreens
                 Title = title,
                 Summary = summary,
                 Body = body,
-                Slug = slug
+                Slug = slug,
+                CreateDate = DateTime.Now,
+                LastUpdateDate = DateTime.Now
             });
 
             Console.ReadKey();
