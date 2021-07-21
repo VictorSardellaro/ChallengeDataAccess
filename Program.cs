@@ -45,7 +45,7 @@ namespace Blog
                     Screens.TagScreens.MenuTagScreen.Load();
                     break;
                 case 3:
-                    Screens.TagScreens.MenuTagScreen.Load();
+                    Screens.CategoryScreens.MenuCategoryScreen.Load();
                     break;
                 case 4:
                     Screens.TagScreens.MenuTagScreen.Load();
