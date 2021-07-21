@@ -29,9 +29,10 @@ namespace Blog
             System.Console.WriteLine("2 - Gestão de perfil");
             System.Console.WriteLine("3 - Gestão de categoria");
             System.Console.WriteLine("4 - Gestão de tag");
-            System.Console.WriteLine("5 - Vincular perfil/usuário");
-            System.Console.WriteLine("6 - Vincular post/tag");
-            System.Console.WriteLine("7 - Relatórios");
+            System.Console.WriteLine("5 - Criar Post");
+            System.Console.WriteLine("6 - Vincular perfil/usuário");
+            System.Console.WriteLine("7 - Vincular post/tag");
+            System.Console.WriteLine("8 - Relatórios");
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = short.Parse(Console.ReadLine()!);
@@ -54,8 +55,9 @@ namespace Blog
                     Screens.TagScreens.MenuTagScreen.Load();
                     break;
                 case 6:
-                    Screens.TagScreens.MenuTagScreen.Load();
+                    Screens.UserRoleScreens.MenuUserRoleScreen.Load();
                     break;
+
                 default: Load(); break;
             }
         }
