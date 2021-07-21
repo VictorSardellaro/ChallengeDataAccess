@@ -11,9 +11,8 @@ namespace Blog.Screens.UserRoleScreens
             System.Console.WriteLine("------------------");
             System.Console.WriteLine("O que deseja fazer?");
             System.Console.WriteLine();
-            System.Console.WriteLine("1 - Listar Users por Perfil");
-            System.Console.WriteLine("2 - Vincular User com Perfil");
-            System.Console.WriteLine("4 - Excluir Vinculo de User com Perfil");
+            System.Console.WriteLine("1 - Vincular User com Perfil");
+            System.Console.WriteLine("2 - Excluir Vinculo de User com Perfil");
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = short.Parse(Console.ReadLine());
@@ -21,15 +20,9 @@ namespace Blog.Screens.UserRoleScreens
             switch (option)
             {
                 case 1:
-                    ListUserRoleScreen.Load();
-                    break;
-                case 2:
                     CreateUserRoleScreen.Load();
                     break;
-                case 3:
-                    //UpdateUserRoleScreen.Load();
-                    break;
-                case 4:
+                case 2:
                     DeleteUserRoleScreen.Load();
                     break;
 

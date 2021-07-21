@@ -13,15 +13,15 @@ namespace Blog.Screens.UserRoleScreens
             System.Console.WriteLine("Excluir um vinculo entre usuario e role");
             System.Console.WriteLine("------------------");
             System.Console.Write("UserID: ");
-            int userId = int.Parse(Console.ReadLine());
+            var userId = Console.ReadLine();
 
             System.Console.Write("RoleID: ");
-            int roleId = int.Parse(Console.ReadLine());
+            var roleId = Console.ReadLine();
 
             Delete(new UserRole
             {
-                UserId = userId,
-                RoleId = roleId
+                UserId = int.Parse(userId),
+                RoleId = int.Parse(roleId)
             });
             Console.ReadKey();
             MenuUserRoleScreen.Load();
