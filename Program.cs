@@ -57,6 +57,9 @@ namespace Blog
                 case 6:
                     Screens.UserRoleScreens.MenuUserRoleScreen.Load();
                     break;
+                case 7:
+                    Screens.PostTagScreens.MenuPostTagScreen.Load();
+                    break;
 
                 default: Load(); break;
             }
